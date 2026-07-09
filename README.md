@@ -12,9 +12,12 @@ Alongside the standard app routes, it adds 2 additional ML features and an AI la
 |
  Method
 |
+|
  Path
 |
+|
  Description
+|
 |
 ---
 |
