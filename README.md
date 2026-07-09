@@ -27,48 +27,40 @@ GET
 |
  Health Check
 |
-|
  GET
 `/docs`
 |
 Interactive API docs (Swagger UI)
-|
 |
  POST
 `/ml/sentiment`
 |
  Score a sleep-journal entry (positive/negative + confidence) 
 |
-|
  POST 
 `/ml/recommend`
 |
  Rank sleep tips against a query 
-|
 |
  POST
 `/ai/chat`
 |
  Chat with Grok 
 |
-|
  GET 
 `/api/sample`
 |
  Multilingual greeting (connectivity check) 
-|
 |
  GET 
 `/api/users/count`
 |
  Total registered users 
 |
-|
  POST 
 `/api/users/register`
 |
  Increment the user count 
-|
 |
  POST
 `/api/insights/activity`
