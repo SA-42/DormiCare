@@ -1,0 +1,29 @@
+[
+project
+]
+name = "dormicare-api"
+version = "1.0.0"
+description = "FastAPI backend for DormiCare: sleep insights, ML, and AI chat"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.139.0",
+    "httpx>=0.28.1",
+    "numpy>=2.4.6",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.0.0",
+    "scikit-learn>=1.9.0",
+    "uvicorn[standard]>=0.51.0",
+]
+
+[
+dependency-groups
+]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[
+tool.pytest.ini_options
+]
+testpaths = ["tests"]
