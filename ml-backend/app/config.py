@@ -1,4 +1,5 @@
 # App configuration settings, loaded from the environment.
+
 # All configuration comes from environment variables (see `.env.example`), so the same code runs unchanged locally, in CI and production.
 
 From __future___ import annotations
